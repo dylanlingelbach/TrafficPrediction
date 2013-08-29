@@ -3,7 +3,7 @@ app = express()
 app.use(express.logger())
 
 app.get('/', (request, response) ->
-  response.send('Hello World!')
+  response.send('Hello!')
 )
 
 port = process.env.PORT || 5000
