@@ -1,0 +1,297 @@
+{
+  "routes": [{
+    "bounds": {
+      "northeast": {
+        "lat": 41.8934473,
+        "lng": -87.61702969999999
+      },
+      "southwest": {
+        "lat": 41.7852536,
+        "lng": -87.74354129999999
+      }
+    },
+    "copyrights": "Map data ©2013 Google",
+    "legs": [{
+      "distance": {
+        "text": "13.2 mi",
+        "value": 21170,
+        "_comment": "value is in feet"
+      },
+      "duration": {
+        "text": "23 mins",
+        "value": 1398,
+        "_comment": "value is in seconds"
+      },
+      "end_address": "5700 South Cicero Avenue, Chicago Midway International Airport, Chicago, IL 60638, USA",
+      "end_location": {
+        "lat": 41.7883322,
+        "lng": -87.74098719999999
+      },
+      "start_address": "401 East Ontario Street, Chicago, IL 60611, USA",
+      "start_location": {
+        "lat": 41.8934473,
+        "lng": -87.61702969999999
+      },
+      "steps": [{
+        "distance": {
+          "text": "0.2 mi",
+          "value": 270
+        },
+        "duration": {
+          "text": "1 min",
+          "value": 26
+        },
+        "end_location": {
+          "lat": 41.89339469999999,
+          "lng": -87.6202867
+        },
+        "html_instructions": "Head <b>west</b> on <b>E Ontario St</b> toward <b>N Mc Clurg Ct</b>",
+        "polyline": {
+          "points": "aiu~FluwuOBlCDjL@pA"
+        },
+        "start_location": {
+          "lat": 41.8934473,
+          "lng": -87.61702969999999
+        },
+        "travel_mode": "DRIVING"
+      }, {
+        "distance": {
+          "text": "0.1 mi",
+          "value": 176
+        },
+        "duration": {
+          "text": "1 min",
+          "value": 66
+        },
+        "end_location": {
+          "lat": 41.8918125,
+          "lng": -87.6202184
+        },
+        "html_instructions": "Turn <b>left</b> at the 2nd cross street onto <b>N Fairbanks Ct</b>",
+        "maneuver": "turn-left",
+        "polyline": {
+          "points": "uhu~FxixuOx@At@Aj@A~CG"
+        },
+        "start_location": {
+          "lat": 41.89339469999999,
+          "lng": -87.6202867
+        },
+        "travel_mode": "DRIVING"
+      }, {
+        "distance": {
+          "text": "0.3 mi",
+          "value": 434
+        },
+        "duration": {
+          "text": "1 min",
+          "value": 78
+        },
+        "end_location": {
+          "lat": 41.8879494,
+          "lng": -87.62068409999999
+        },
+        "html_instructions": "Continue onto <b>N Columbus Dr</b>",
+        "polyline": {
+          "points": "y~t~FjixuOxA?V?P?ZP`AB`AFfA@tAPFBLFRD\\\\BbAJb@Dl@BP?D?D?L?R?H?FAD?F?@?@?"
+        },
+        "start_location": {
+          "lat": 41.8918125,
+          "lng": -87.6202184
+        },
+        "travel_mode": "DRIVING"
+      }, {
+        "distance": {
+          "text": "1.4 mi",
+          "value": 2286
+        },
+        "duration": {
+          "text": "3 mins",
+          "value": 162
+        },
+        "end_location": {
+          "lat": 41.8784344,
+          "lng": -87.6368639
+        },
+        "html_instructions": "Turn <b>right</b> onto <b>E Lower Wacker Dr</b>",
+        "maneuver": "turn-right",
+        "polyline": {
+          "points": "uft~FflxuOALCJ?@EZ?PAp@ObBCXGx@C\\\\C\\\\Cb@Cb@Cx@A~@?zA@hA?FAZC|BB\\\\F\\\\V^pB`Bz@t@DFLRJRNd@Jl@@j@?~@?n@An@AhF?~@?fA@nD?p@@fM?l@@r@?V?L?`B?jA?X?\\\\@XBP@J@BDRDPNXZd@dAnBPTLNLNNHZJF@D?ZFXD~AHnAAp@?X?|DA@?@?B?T?b@AlDE@?N?@?pEEl@A@?D?nB?xB?RA@?@?@?hA?t@Ap@C"
+        },
+        "start_location": {
+          "lat": 41.8879494,
+          "lng": -87.62068409999999
+        },
+        "travel_mode": "DRIVING"
+      }, {
+        "distance": {
+          "text": "0.8 mi",
+          "value": 1234
+        },
+        "duration": {
+          "text": "1 min",
+          "value": 79
+        },
+        "end_location": {
+          "lat": 41.8756052,
+          "lng": -87.64253269999999
+        },
+        "html_instructions": "Take the ramp onto <b>I-290 W</b>",
+        "polyline": {
+          "points": "ekr~Fjq{uOTDp@?rBCtBA@?L?TA^Ad@O`@YX_@HWFQ?CDQ@I?E@I@U?c@C_@Ga@G]EOCIISGUEOCIK]EOAECY@WFOHUJKPAN?NFPRDLBR@ND`@FFAlB?jB?^?P?P?B@V@|J@fA?xA@xA?h@?B?F?@?tA@xD?h@BnA@|A@zA"
+        },
+        "start_location": {
+          "lat": 41.8784344,
+          "lng": -87.6368639
+        },
+        "travel_mode": "DRIVING"
+      }, {
+        "distance": {
+          "text": "1.6 mi",
+          "value": 2527
+        },
+        "duration": {
+          "text": "2 mins",
+          "value": 125
+        },
+        "end_location": {
+          "lat": 41.8572376,
+          "lng": -87.644384
+        },
+        "html_instructions": "Take the exit onto <b>I-90 E/I-94 E</b> toward <b>Indiana</b>",
+        "maneuver": "ramp-right",
+        "polyline": {
+          "points": "qyq~Fxt|uOMj@CTCZAn@?TA\\\\?tA?@EvA?@ALCPETIT?@A?IPQV]f@MTIP?@A?GVGX?@CPAP?f@?@@RBRDPFXJXJNJNNNPJNFPBH@@@D?H@JALALEHC@?FCTOLK@ABCl@k@^a@NMNMPMFE\\\\QFE`@KTGZETA^@XEVCXA\\\\A`@?XGTAVAVC\\\\C\\\\A\\\\EPARENEZGVIb@M@?B?DCTG`@KpAObBOFADCNUjJg@bCIjHOdCCfCB~@An@A@?D?P?|BE~BE`@AB?@?DAn@AdAAnAA`BC~@C~@Ar@C@?P?H?~@CB?hDCnDCV?DAH?x@A"
+        },
+        "start_location": {
+          "lat": 41.8756052,
+          "lng": -87.64253269999999
+        },
+        "travel_mode": "DRIVING"
+      }, {
+        "distance": {
+          "text": "6.0 mi",
+          "value": 9656
+        },
+        "duration": {
+          "text": "7 mins",
+          "value": 394
+        },
+        "end_location": {
+          "lat": 41.8188257,
+          "lng": -87.7381329
+        },
+        "html_instructions": "Take exit <b>53</b> to merge onto <b>I-55 S</b> toward <b>St Louis</b>",
+        "maneuver": "ramp-right",
+        "polyline": {
+          "points": "wfn~Fj`}uOLLBBFDDBH@TBf@Fj@Jt@NzBd@D@n@P`ATB@d@L|D|@|A^ZFZFt@H\\\\B@?T@B?fAEz@G~@Q^K^O~@W@?x@[bAe@tAq@tAo@h@Wf@YNEDAJEJELGXKj@OHALCVGD?@?TAPAH@L@LBPDLDNFPJTNNJNPNPNRJRJTTl@\\\\dAZhAVbABNNv@Jh@ZpBJ|@D`@BVBd@BXDx@FhBDlA@P?H@B?B@DBDBFFJBn@@TPdC@ND`@Fd@Hh@RjA\\\\|AXdAl@lBx@pCx@dCJ\\\\fApDtAvDdDjJzAdE?BPb@fBfEhAdCv@jBBHJTVn@dC~Ed@bAj@fA^p@Xl@p@xA@@t@|Ad@`A@??@LV@@?@?@\\\\v@Xt@Vv@\\\\nAHXF^BHJf@DVD\\\\Hj@Fd@Df@BXB`@Dh@B\\\\@R@~@DzD?BB`DHlNBpEB`A?D?@?Z?@?V?B?Z?P?@?F@xBBv@@dD?p@?t@@bBB`A@f@Bd@B^Fz@Hv@Hp@Jl@Fd@Jj@Jf@Pf@HX^`B`@pBlBlJLj@?@@@DVPv@BLBJFX?Bv@pDxA|GVhAThAxEpTfDxO\\\\zAPz@ZnA@HjBrIzBfKpE~SrBzJ@@?@x@rDv@pDpBhJdAzE~BjLjD|OhDvObArEHd@@FV|A`@jA~BxK~BxKd@tBPz@J`@H^DP?@@BfA`FxBdKnBfJnAxFj@lC`@hBt@dD|E~T`AvE^bB@@XvA"
+        },
+        "start_location": {
+          "lat": 41.8572376,
+          "lng": -87.644384
+        },
+        "travel_mode": "DRIVING"
+      }, {
+        "distance": {
+          "text": "0.3 mi",
+          "value": 465
+        },
+        "duration": {
+          "text": "2 mins",
+          "value": 99
+        },
+        "end_location": {
+          "lat": 41.81780819999999,
+          "lng": -87.74354129999999
+        },
+        "html_instructions": "Take exit <b>286</b> for <b>Illinois 50/Cicero Ave</b> toward <b>Airport</b>",
+        "maneuver": "ramp-right",
+        "polyline": {
+          "points": "uvf~FhjovOAHAF?L@LBRDVF`@Hf@FZ?DFXHb@Hl@D`@Fd@BZ@LD^B\\\\Dp@LlBFbAFv@Jv@?DFZJx@TlALr@Fd@"
+        },
+        "start_location": {
+          "lat": 41.8188257,
+          "lng": -87.7381329
+        },
+        "travel_mode": "DRIVING"
+      }, {
+        "distance": {
+          "text": "2.1 mi",
+          "value": 3301
+        },
+        "duration": {
+          "text": "5 mins",
+          "value": 301
+        },
+        "end_location": {
+          "lat": 41.7882896,
+          "lng": -87.74151599999999
+        },
+        "html_instructions": "Turn <b>left</b> onto <b>S Cicero Ave</b>",
+        "maneuver": "turn-left",
+        "polyline": {
+          "points": "ipf~FblpvOl@A`@CD?@?@ARAV?H?@?`@?d@?bACpECpA?bHKfAC`HEjAAlJIrEEzCCvGGpAAvGErAAtGEtA?zGGpACnDE|CEdIE`AAjFE~@AP?J?T?TCRAJCVEXIVMPIVKPKfBu@pAg@n@W`A_@HCFCDAFALCPATC\\\\?rAC\\\\?\\\\CtCI^AxACjAAzBCjBA"
+        },
+        "start_location": {
+          "lat": 41.81780819999999,
+          "lng": -87.74354129999999
+        },
+        "travel_mode": "DRIVING"
+      }, {
+        "distance": {
+          "text": "0.2 mi",
+          "value": 259
+        },
+        "duration": {
+          "text": "1 min",
+          "value": 17
+        },
+        "end_location": {
+          "lat": 41.7859784,
+          "lng": -87.7415724
+        },
+        "html_instructions": "Take the exit toward <b>Departures</b>",
+        "maneuver": "ramp-right",
+        "polyline": {
+          "points": "yw`~Fn_pvOVPjE@hFI"
+        },
+        "start_location": {
+          "lat": 41.7882896,
+          "lng": -87.74151599999999
+        },
+        "travel_mode": "DRIVING"
+      }, {
+        "distance": {
+          "text": "0.3 mi",
+          "value": 562
+        },
+        "duration": {
+          "text": "1 min",
+          "value": 51
+        },
+        "end_location": {
+          "lat": 41.7883322,
+          "lng": -87.74098719999999
+        },
+        "html_instructions": "Keep <b>right</b> at the fork, follow signs for <b>Departures/Parking/Garage</b> and merge onto <b>Departures</b><div style=\\"
+        font - size: 0.9em\\ ">Destination will be on the right</div>",
+        "maneuver": "fork-right",
+        "polyline": {
+          "points": "ki`~Fx_pvO`@GVGNI@ABCBCFEJODI@ABGFKBIBI@G@A?C@C@I@QBW?UA[ASCOCKESIOEIGIEEMGGAGAGCGAIAKAG?G?C?C?C?C@E@C@EDIFEDGHGLEJSz@Md@GTKNKNQLI@M@aCFe@@[?I?{@@e@@A?"
+        },
+        "start_location": {
+          "lat": 41.7859784,
+          "lng": -87.7415724
+        },
+        "travel_mode": "DRIVING"
+      }],
+      "via_waypoint": []
+    }],
+    "overview_polyline": {
+      "points": "aiu~FluwuOHxP@pAx@A`BCxFGh@?ZP`ABhCH|AT`@L`BNpAHV?R?d@AD?H??LIz@Ap@ObBKrAObCExB@dDAb@C|BB\\\\F\\\\V^lDvCRZZx@Jl@@j@?nBC`LBvU@zD@|CLt@Tj@`BtC^d@\\\\XdATxBN`CAxEA~FGbGGrIAfBETDp@?hFEN?t@Cd@O`@YX_@HWFUHk@@y@KaA[kA]mAGUAq@Pe@JKPAN?NFPRDLDb@D`@FFAxE?^?f@FfU@zHDlD@zAMj@Gp@AdAArBExAE`@Ql@gAfBSj@Kl@Az@Df@Lj@Vh@Z^`@RZD\\\\@f@K\\\\SLKrAsAx@o@d@Wv@Sp@G^@XEp@E~@AXGTAn@EjBMvA]n@Qv@StD_@LENUjJg@bCIjHOdCCfCBnBC@?tGKrFIrJQtJGNAx@ALLJHND|@J`BZpDx@hHbBxBf@pAPx@DbCM~A]~Ag@z@[xG_Dv@_@PGXMdA[t@Mr@AZD^J`@Rd@Z^b@Zf@`@bAx@nCj@jCf@zCP~APpCNhEBVFLFJBn@RzCFp@PnAp@hDfArDrBvGrAnEzFbPzAhExBjFpCpGnFzKjE|IN\\\\v@lBt@fC`@jB\\\\fCRlCDp@FzFPdZBdB@nEDdIDdDDlAJzARhBj@fDZ`A`ArEzBzKh@hCpRf}@hClLbMdl@bFpUdEfStIt`@lAxFXdB`@jA~BxKdDnOl@nCbElRbSz~@ZxACP@ZHj@XjB`@lCRnB^`GZpCv@`FdCIl@?lKGjJOlJGt^[rUOrRQpWSrBAh@Eb@IzAm@xBaA`C_AxAi@|@KlDGzIQfFEVPjE@hFI`@Gf@QPOVc@Pg@DSDi@Aq@Ec@I_@]i@e@Oe@ES?SJOLOVo@bCW^QLI@oCHaA@mBB"
+    },
+    "summary": "I-55 S",
+    "warnings": [],
+    "waypoint_order": []
+  }],
+  "status": "OK"
+}

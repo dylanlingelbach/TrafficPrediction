@@ -8,7 +8,8 @@
   "dependencies": {
     "express": "*",
     "coffee-script": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "googlemaps": "*"
   },
   "engines": {
     "node": "0.10.x",
