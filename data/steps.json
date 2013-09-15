@@ -1,0 +1,297 @@
+[{
+  "distance": {
+    "text": "0.2 mi",
+    "value": 270
+  },
+  "duration": {
+    "text": "1 min",
+    "value": 26
+  },
+  "end_location": {
+    "lat": 41.89339469999999,
+    "lng": -87.6202867
+  },
+  "html_instructions": "Head <b>west</b> on <b>E Ontario St</b> toward <b>N Mc Clurg Ct</b>",
+  "polyline": {
+    "points": "aiu~FluwuOBlCDjL@pA"
+  },
+  "start_location": {
+    "lat": 41.8934473,
+    "lng": -87.61702969999999
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "0.1 mi",
+    "value": 176
+  },
+  "duration": {
+    "text": "1 min",
+    "value": 66
+  },
+  "end_location": {
+    "lat": 41.8918125,
+    "lng": -87.6202184
+  },
+  "html_instructions": "Turn <b>left</b> at the 2nd cross street onto <b>N Fairbanks Ct</b>",
+  "maneuver": "turn-left",
+  "polyline": {
+    "points": "uhu~FxixuOx@At@Aj@A~CG"
+  },
+  "start_location": {
+    "lat": 41.89339469999999,
+    "lng": -87.6202867
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "0.3 mi",
+    "value": 434
+  },
+  "duration": {
+    "text": "1 min",
+    "value": 78
+  },
+  "end_location": {
+    "lat": 41.8879494,
+    "lng": -87.62068409999999
+  },
+  "html_instructions": "Continue onto <b>N Columbus Dr</b>",
+  "polyline": {
+    "points": "y~t~FjixuOxA?V?P?ZP`AB`AFfA@tAPFBLFRD\\\\BbAJb@Dl@BP?D?D?L?R?H?FAD?F?@?@?"
+  },
+  "start_location": {
+    "lat": 41.8918125,
+    "lng": -87.6202184
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "1.6 mi",
+    "value": 2590
+  },
+  "duration": {
+    "text": "3 mins",
+    "value": 182
+  },
+  "end_location": {
+    "lat": 41.8758142,
+    "lng": -87.6361451
+  },
+  "html_instructions": "Turn <b>right</b> onto <b>E Lower Wacker Dr</b>",
+  "maneuver": "turn-right",
+  "polyline": {
+    "points": "uft~FflxuOALCJ?@EZ?PAp@ObBCXGx@C\\\\C\\\\Cb@Cb@Cx@A~@?zA@hA?FAZC|BB\\\\F\\\\V^pB`Bz@t@DFLRJRNd@Jl@@j@?~@?n@An@AhF?~@?fA@nD?p@@fM?l@@r@?V?L?`B?jA?X?\\\\@XBP@J@BDRDPNXZd@dAnBPTLNLNNHZJF@D?ZFXD~AHnAAp@?X?|DA@?@?B?T?b@AlDE@?N?@?pEEl@A@?D?nB?xB?RA@?@?@?hA?t@Ap@CTCp@C|DIl@CLAJ?HAPAPE^QnAgANMNC"
+  },
+  "start_location": {
+    "lat": 41.8879494,
+    "lng": -87.62068409999999
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "453 ft",
+    "value": 138
+  },
+  "duration": {
+    "text": "1 min",
+    "value": 10
+  },
+  "end_location": {
+    "lat": 41.8747469,
+    "lng": -87.6352842
+  },
+  "html_instructions": "Continue onto <b>S Wacker Dr</b>",
+  "polyline": {
+    "points": "yzq~F|l{uOFILKZUROl@c@hA{@TQ"
+  },
+  "start_location": {
+    "lat": 41.8758142,
+    "lng": -87.6361451
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "0.2 mi",
+    "value": 378
+  },
+  "duration": {
+    "text": "1 min",
+    "value": 44
+  },
+  "end_location": {
+    "lat": 41.8743938,
+    "lng": -87.63949439999999
+  },
+  "html_instructions": "Turn <b>right</b> onto <b>W Harrison St</b>",
+  "maneuver": "turn-right",
+  "polyline": {
+    "points": "etq~Fng{uOB?LALAH@@?FFDN@@?zD?l@?H?|@FvKBfB"
+  },
+  "start_location": {
+    "lat": 41.8747469,
+    "lng": -87.6352842
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "1.6 mi",
+    "value": 2596
+  },
+  "duration": {
+    "text": "5 mins",
+    "value": 325
+  },
+  "end_location": {
+    "lat": 41.8510872,
+    "lng": -87.6384941
+  },
+  "html_instructions": "Turn <b>left</b> onto <b>S Canal St</b>",
+  "maneuver": "turn-left",
+  "polyline": {
+    "points": "}qq~Fxa|uONG`AGzHGlA?jA?r@A|CElBCt@AnACpIKfAAXBnBCjFExIGzFIzBC|@ChBCtACtAAVAhFEzBCpBA|@AlIIJBv@I|ASpBW^IPAXCVAb@BzACnA?l@A|GE"
+  },
+  "start_location": {
+    "lat": 41.8743938,
+    "lng": -87.63949439999999
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "5.5 mi",
+    "value": 8912
+  },
+  "duration": {
+    "text": "17 mins",
+    "value": 990
+  },
+  "end_location": {
+    "lat": 41.8022808,
+    "lng": -87.723491
+  },
+  "html_instructions": "Turn <b>right</b> onto <b>S Archer Ave</b>",
+  "maneuver": "turn-right",
+  "polyline": {
+    "points": "i`m~Fp{{uOp@bBJV~@vBDHFFHLVXJLXZ~@|AtA`D^`Af@lAf@vATt@DNBJBR@H?@BJF^BNHf@BTBLBRDJXlAdArCTl@d@nA|@~Bl@`BVr@d@jAAT@BXr@h@vAlAbDx@zBBDDJ~@dCRd@?@@B~@~Bt@jBf@jAR`@FLBBNNb@vA`@bAz@xBx@pB\\\\z@l@`BlAbDh@rA`@hAv@pBl@~Ah@rApAhDf@vAjA|Cr@jBh@xAl@`BxApDdAhCf@fA`@bAf@lAFP|AxCJVnBfDf@|@fAzBhArBbHxMfCzE`BbDtDdH`CvEf@bA|@~AlF`KrAdC~@jBpClFzAtCpAdC\\\\n@zBlEpBxDPXv@zATb@Zj@P`@v@vAp@vAdArBd@`A`@p@r@nA|EnJ`AjBXd@nA~BjBjD`CpElBvD~AzCp@rApA`ClBtD`BdDn@jA~@dBlAbCl@nAz@~At@vAxBhEl@fAfBlD~CxFh@dA|@`B~@hBp@rAf@z@lBxD`AnBhAtBnA|B`AhBt@vAvArCd@|@pBrDPZnCrFvCvFbAnBdE|Hp@nAl@jAx@zAxAnCfBdD~A`DbB`DHPvHxNx@`BR`@"
+  },
+  "start_location": {
+    "lat": 41.8510872,
+    "lng": -87.6384941
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "0.6 mi",
+    "value": 1011
+  },
+  "duration": {
+    "text": "2 mins",
+    "value": 117
+  },
+  "end_location": {
+    "lat": 41.7931949,
+    "lng": -87.723218
+  },
+  "html_instructions": "Turn <b>left</b> onto <b>S Pulaski Rd</b>",
+  "maneuver": "turn-left",
+  "polyline": {
+    "points": "goc~FxnlvOp@?b@?dGCb@Ad@A^AvEChAAhAEdDG~@Af@?vAC~@AhBCh@Az@At@?|EC|AC"
+  },
+  "start_location": {
+    "lat": 41.8022808,
+    "lng": -87.723491
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "0.9 mi",
+    "value": 1419
+  },
+  "duration": {
+    "text": "2 mins",
+    "value": 125
+  },
+  "end_location": {
+    "lat": 41.7930476,
+    "lng": -87.7403317
+  },
+  "html_instructions": "Turn <b>right</b> onto <b>W 55th St</b>",
+  "maneuver": "turn-right",
+  "polyline": {
+    "points": "mva~FbmlvO?xB?jB@vF@tF@~B@rB?rB@~B@tF@tF?dC@lB?pA?bDBrF@vF@lF?H@jA?pA?|A@jF"
+  },
+  "start_location": {
+    "lat": 41.7931949,
+    "lng": -87.723218
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "0.4 mi",
+    "value": 693
+  },
+  "duration": {
+    "text": "2 mins",
+    "value": 98
+  },
+  "end_location": {
+    "lat": 41.78690479999999,
+    "lng": -87.7395366
+  },
+  "html_instructions": "Turn <b>left</b> onto <b>S Kilpatrick Ave</b>",
+  "maneuver": "turn-left",
+  "polyline": {
+    "points": "qua~F`xovO`CClCCZGJIPONOTMRGPAj@?l@AJALC|Ac@BA\\\\Cb@CDAL?XApAA|BChCEH?D?jACz@A"
+  },
+  "start_location": {
+    "lat": 41.7930476,
+    "lng": -87.7403317
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "0.2 mi",
+    "value": 243
+  },
+  "duration": {
+    "text": "1 min",
+    "value": 24
+  },
+  "end_location": {
+    "lat": 41.7874521,
+    "lng": -87.7409593
+  },
+  "html_instructions": "Slight <b>left</b> toward <b>Departures</b>",
+  "maneuver": "turn-slight-left",
+  "polyline": {
+    "points": "co`~FbsovOJCFAL@F@B@FBDBFFDD@@?@B@FHDNBLBN@L?J?LCPCNCNENELEHGJEFEDKFIDI@I@E@G?K?u@Hi@L"
+  },
+  "start_location": {
+    "lat": 41.78690479999999,
+    "lng": -87.7395366
+  },
+  "travel_mode": "DRIVING"
+}, {
+  "distance": {
+    "text": "322 ft",
+    "value": 98
+  },
+  "duration": {
+    "text": "1 min",
+    "value": 11
+  },
+  "end_location": {
+    "lat": 41.7883322,
+    "lng": -87.74098719999999
+  },
+  "html_instructions": "Continue straight onto <b>Departures</b>Destination will be on the right</div>",
+  "maneuver": "straight",
+  "polyline": {
+    "points": "qr`~F~{ovOe@@[?I?{@@e@@A?"
+  },
+  "start_location": {
+    "lat": 41.7874521,
+    "lng": -87.7409593
+  },
+  "travel_mode": "DRIVING"
+}]

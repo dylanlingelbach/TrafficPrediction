@@ -26,7 +26,7 @@ exports.getDistance = (start, end) ->
 
 gd = exports.getDistance
 exports.findClosestSegment = (street, direction, location) ->
-  streetSegments = segments.filter (s) -> s.street == street && s.direction == (direction ? direction : s.direction)
+  streetSegments = segments.filter (s) -> s.street == street && [].concat(direction || []).indexOf(s.direction) != -1
   distance = streetSegments.map (d) -> gd(location, d.start)
   minIndex = distance.indexOf(_.min(distance))
   return streetSegments[minIndex]
@@ -48,18 +48,18 @@ exports.findDirection = (start, end) ->
   if bearing >= 337.5 || bearing <= 22.5
     return 'NB'
   if bearing > 22.5 && bearing < 67.5
-    return 'NE'
+    return ['NE', 'NB', 'EB']
   if bearing >= 67.5 && bearing <= 112.5
     return 'EB'
   if bearing > 112.5 && bearing < 157.5
-    return 'SE'
+    return ['SE', 'SB', 'EB']
   if bearing >= 157.5 && bearing <= 202.5
     return 'SB'
   if bearing > 202.5 && bearing < 247.5
-    return 'SW'
+    return ['SW', 'SB', 'WB']
   if bearing >= 247.5 && bearing <= 292.5
     return 'WB'
   if bearing > 292.5 && bearing < 337.5
-    return 'NW'
+    return ['NW', 'NB', 'WB']
 
 
