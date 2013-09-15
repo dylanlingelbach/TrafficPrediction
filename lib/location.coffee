@@ -3,7 +3,10 @@ segments = require('../data/segments')
 _ = require('underscore')
 
 Number.prototype.toRad = () ->
-  return this * Math.PI / 180
+  return (this * Math.PI) / 180
+
+Number.prototype.toDeg = () ->
+   return (this * 180) / Math.PI
 
 # Get the distance between two lat/long pairs
 # Use the Great Circle method (http://en.wikipedia.org/wiki/Great-circle_distance)
@@ -22,7 +25,41 @@ exports.getDistance = (start, end) ->
   R * c
 
 gd = exports.getDistance
-exports.findClosestSegment = (location) ->
-  distance = segments.map (d) -> gd(location, d.start)
+exports.findClosestSegment = (street, direction, location) ->
+  streetSegments = segments.filter (s) -> s.street == street && s.direction == (direction ? direction : s.direction)
+  distance = streetSegments.map (d) -> gd(location, d.start)
   minIndex = distance.indexOf(_.min(distance))
-  return segments[minIndex]
+  return streetSegments[minIndex]
+
+exports.findDirection = (start, end) ->
+  startLat = parseFloat(start.lat)
+  startLng = parseFloat(start.lng)
+  endLat = parseFloat(end.lat)
+  endLng = parseFloat(end.lng)
+  dLng = (endLng - startLng).toRad()
+  startLat = startLat.toRad()
+  startLng = startLng.toRad()
+  endLat = endLat.toRad()
+  endLng = endLng.toRad()
+  y = Math.sin(dLng) * Math.cos(endLat)
+  x = Math.cos(startLat)*Math.sin(endLat) - Math.sin(startLat)*Math.cos(endLat)*Math.cos(dLng)
+  bearing = Math.atan2(y, x).toDeg()
+  bearing = (bearing + 360) % 360
+  if bearing >= 337.5 || bearing <= 22.5
+    return 'NB'
+  if bearing > 22.5 && bearing < 67.5
+    return 'NE'
+  if bearing >= 67.5 && bearing <= 112.5
+    return 'EB'
+  if bearing > 112.5 && bearing < 157.5
+    return 'SE'
+  if bearing >= 157.5 && bearing <= 202.5
+    return 'SB'
+  if bearing > 202.5 && bearing < 247.5
+    return 'SW'
+  if bearing >= 247.5 && bearing <= 292.5
+    return 'WB'
+  if bearing > 292.5 && bearing < 337.5
+    return 'NW'
+
+
