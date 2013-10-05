@@ -316,8 +316,7 @@
           "lat": 41.7883322,
           "lng": -87.74098719999999
         },
-        "html_instructions": "Continue straight onto <b>Departures</b><div style=\\"
-        font - size: 0.9em\\ ">Destination will be on the right</div>",
+        "html_instructions": "Continue straight onto <b>Departures</b><div style=\"font - size: 0.9em\">Destination will be on the right</div>",
         "maneuver": "straight",
         "polyline": {
           "points": "qr`~F~{ovOe@@[?I?{@@e@@A?"
