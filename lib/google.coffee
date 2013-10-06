@@ -1,4 +1,12 @@
+_ = require('underscore')
+
 location = require('./location')
+
+exports.getSteps = (directions) ->
+  _.flatten(directions.routes.map (route) ->
+    route.legs.map (leg) ->
+      leg.steps
+    )
 
 exports.getStreet = (step) ->
   instructions = step.html_instructions
@@ -25,6 +33,7 @@ exports.getSegments = (steps) ->
   steps.map (step) ->
     street = gs(step)
     direction = location.findDirection(step.start_location, step.end_location)
-    location.findClosestSegment(street, direction, step.start_location)
+    segment = location.findClosestSegment(street, direction, step.start_location)
+    {segments: [segment], step: step}
 
 
