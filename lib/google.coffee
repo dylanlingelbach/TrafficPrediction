@@ -33,7 +33,36 @@ exports.getSegments = (steps) ->
   steps.map (step) ->
     street = gs(step)
     direction = location.findDirection(step.start_location, step.end_location)
-    segment = location.findClosestSegment(street, direction, step.start_location)
-    {segments: [segment], step: step}
+    segments = []
+    segment = _.clone(location.findClosestSegment(street, direction, step.start_location))
+    if segment
+      remainingMeters = step.distance.value
+      if location.needPriorSegment(step, segment)
+        priorSegment = _.clone(location.findPriorSegment(street, direction, segment.start))
+        if priorSegment
+          distance = location.getDistance(step.start_location, priorSegment.end)
+          remainingMeters -= distance
+          priorSegment.metersOnSegment = distance
+          segments.push priorSegment
+
+      if !priorSegment
+        distance = location.getDistance(step.start_location, segment.end)
+        segment.metersOnSegment = _.min([distance, remainingMeters])
+        remainingMeters -= distance
+        segments.push segment
+      else
+        segment = priorSegment
+
+      while remainingMeters > 0
+        segment = _.clone(location.findClosestSegment(street, direction, segment.end))
+        if segment
+          distance = location.getDistance(segment.start, segment.end)
+          segment.metersOnSegment = _.min([distance, remainingMeters])
+          remainingMeters -= segment.metersOnSegment
+          segments.push segment
+        else
+          break
+
+    {segments: segments, step: step}
 
 

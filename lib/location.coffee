@@ -26,13 +26,19 @@ exports.getDistance = (start, end) ->
 
 gd = exports.getDistance
 
-exports.findClosestSegment = (street, direction, location) ->
+findSegment = (street, direction, location, kind) ->
   streetSegments = segments.filter (s) -> s.street == street && [].concat(direction || []).indexOf(s.direction) != -1
-  distance = streetSegments.map (d) -> gd(location, d.start)
+  distance = streetSegments.map (d) -> gd(location, d[kind])
   minIndex = distance.indexOf(_.min(distance))
   return streetSegments[minIndex]
 
-needPriorSegment = (step, closestSegment) ->
+exports.findPriorSegment = (street, direction, location) ->
+  findSegment(street, direction, location, 'end')
+
+exports.findClosestSegment = (street, direction, location) ->
+  findSegment(street, direction, location, 'start')
+
+exports.needPriorSegment = (step, closestSegment) ->
   segmentLength = gd(closestSegment.start, closestSegment.end)
   stepStartToSegmentEndLength = gd(step.start_location, closestSegment.end)
   segmentLength < stepStartToSegmentEndLength
