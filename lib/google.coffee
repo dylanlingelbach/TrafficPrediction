@@ -1,14 +1,16 @@
 _ = require('underscore')
 
 location = require('./location')
+googlemaps = require('googlemaps')
 
-exports.getSteps = (directions) ->
+getSteps = (directions) ->
   _.flatten(directions.routes.map (route) ->
     route.legs.map (leg) ->
       leg.steps
     )
+exports.getSteps = getSteps
 
-exports.getStreet = (step) ->
+getStreet = (step) ->
   instructions = step.html_instructions
   street_match = /ont?o?\s+\<b\>([\s|\w+]+)\<\/b\>/
   match = street_match.exec(instructions)
@@ -26,12 +28,11 @@ exports.getStreet = (step) ->
     street = street.replace('Lower ', '')
     street = street.replace(' ', '')
     street
+exports.getStreet = getStreet
 
-gs = exports.getStreet
-
-exports.getSegments = (steps) ->
+getSegments = (steps) ->
   steps.map (step) ->
-    street = gs(step)
+    street = getStreet(step)
     direction = location.findDirection(step.start_location, step.end_location)
     segments = []
     segment = _.clone(location.findClosestSegment(street, direction, step.start_location))
@@ -64,5 +65,15 @@ exports.getSegments = (steps) ->
           break
 
     {segments: segments, step: step}
+exports.getSegments = getSegments
 
-
+exports.getDirections = (origin, destination, callback) ->
+  cb = (error, data) ->
+    if !error
+      steps = getSteps(data)
+      directions = getSegments(steps)
+      callback(null, directions)
+    else
+      callback(error, null)
+  #                                              #sensor, #mode, #waypoints, #alternatives, #avoid
+  googlemaps.directions(origin, destination, cb, false,   null,  null,       null,          'highways')
