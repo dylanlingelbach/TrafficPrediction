@@ -72,8 +72,10 @@ exports.getDirections = (origin, destination, callback) ->
     if !error
       steps = getSteps(data)
       directions = getSegments(steps)
-      callback(null, directions)
+      if callback
+        callback(null, directions)
     else
-      callback(error, null)
+      if callback
+        callback(error, null)
   #                                              #sensor, #mode, #waypoints, #alternatives, #avoid
   googlemaps.directions(origin, destination, cb, false,   null,  null,       null,          'highways')

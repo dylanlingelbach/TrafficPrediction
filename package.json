@@ -9,7 +9,8 @@
     "express": "*",
     "coffee-script": "*",
     "underscore": "*",
-    "googlemaps": "*"
+    "googlemaps": "*",
+    "nodedump": "*"
   },
   "engines": {
     "node": "0.10.x",
