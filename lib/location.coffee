@@ -22,14 +22,20 @@ exports.getDistance = (start, end) ->
   a = Math.sin(dLat/2) * Math.sin(dLat/2) +
       Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(startLat.toRad()) * Math.cos(endLat.toRad())
   c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a))
-  R * c
+  R * c * 1000
 
 gd = exports.getDistance
+
 exports.findClosestSegment = (street, direction, location) ->
   streetSegments = segments.filter (s) -> s.street == street && [].concat(direction || []).indexOf(s.direction) != -1
   distance = streetSegments.map (d) -> gd(location, d.start)
   minIndex = distance.indexOf(_.min(distance))
   return streetSegments[minIndex]
+
+needPriorSegment = (step, closestSegment) ->
+  segmentLength = gd(closestSegment.start, closestSegment.end)
+  stepStartToSegmentEndLength = gd(step.start_location, closestSegment.end)
+  segmentLength < stepStartToSegmentEndLength
 
 exports.findDirection = (start, end) ->
   startLat = parseFloat(start.lat)
